@@ -1,6 +1,6 @@
 ## Solution Guide: Users and Groups
 
- id
+id
 
 running id sysadmin
 
@@ -22,6 +22,6 @@ sudo deluser --remove-home jack
 sudo addgroup developers 
 sudo usermod -G developers sysadmin
 
-7. The users adam, billy, sally and max should only be members of the developers group and their own groups. If you find any groups other than this, document the group and remove it.
+# 7. The users adam, billy, sally and max should only be members of the developers group and their own groups. If you find any groups other than this, document the group and remove it.
 
-      sudo delgroup hax0rs
+sudo delgroup hax0rs

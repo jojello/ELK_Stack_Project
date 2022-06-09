@@ -20,11 +20,11 @@ usermod -aG sudo sysd
 
 # Test that sudo access works without your password:
 
-``su - sysd
+su - sysd
 sudo -l
 sudo -vn && sudo -ln  
 sudo whoami 
-sudo /bin/kill 2213 ```
+sudo /bin/kill 2213
 
 
 # Step 2: Smooth Sailing
